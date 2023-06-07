@@ -1,0 +1,154 @@
+#detail{
+  padding: 90px 0;
+  p::selection{
+    background-color:turquoise;
+    color: black;
+  }
+  h1::selection{
+    background-color:turquoise;
+    color: black;
+  }
+  .detail{
+    padding: 25px 0;
+    &--title{
+      display: flex;
+      &__img{
+        transition: .5s;
+      }
+      &__img:hover{
+        transform: scale(1.03);
+
+      }
+
+    }
+    &--nav{
+      button {
+        transition: 1s;
+        background: REBECCAPURPLE;
+        width: 132px;
+        color: lime;
+         margin: 10px 0;
+        font-size: 20px;
+        border-radius: 10px;
+        height: 51px;
+        &:hover{
+           transform: scale(1.002);
+           background: white;
+        }
+      }
+      &__name{
+        color: white;
+        font-weight: 800;
+         transition: 3s;
+        font-size: 30px;
+        font-family: "Poor Richard",sans-serif;
+      }
+      &__overview{
+        font-family: "Poor Richard",sans-serif;
+
+      }
+      &__die{
+        padding: 25px 0;
+           margin-left: 30px;
+        font-size: 20px;
+        color: red;
+
+      }
+      &__chip{
+        font-size: 30px;
+        color: white;
+      }
+      &__name2{
+        color: red;
+        font-weight: 800;
+        font-size: 30px;
+        font-family: "Source Code Pro",sans-serif;
+                  animation: pinched 2s infinite ease;
+
+                }
+      @keyframes pinched {
+        0% {
+          opacity: 0.2;
+        }
+        50%{
+          opacity: 1;
+        }
+        100% {
+          opacity: 0.3;
+        }
+      }
+
+      &__genres{
+        color:white;
+        font-family: "Source Code Pro","Source Code Pro", sans-serif;
+      }
+      &__cir{
+        transition: .4s;
+        display: flex;
+        &--top{
+          color: white;
+          margin-left: 10px;
+          font-size: 30px;
+          font-family: "Source Code Pro",sans-serif;
+        }
+        &--finger {
+          font-size: 30px;
+          color: red;
+          margin-left: 20px;
+          transform: rotate(500deg);
+          animation: we 3s infinite ease;
+
+
+          @keyframes we {
+            0% {
+              transform: rotate(3deg);
+            }
+            50% {
+              transform: rotate(3deg);
+            }
+            100% {
+              transform: rotate(349deg);
+            }
+          }
+        }
+        &--circle{
+          cursor: ne-resize;
+          width: 80px;
+          height: 80px;
+          border-radius:50% ;
+          background: rgba(36, 53, 161, 0.84);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          &--border{
+            border: 4px solid #961616;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h4{
+              color: red;
+            }
+            p{
+              color: white;
+            }
+          }
+        }
+        :hover{
+          transform: scale(1.03);
+        }
+      }
+
+      &__say{
+        color: darkgray;
+        font-size: 22px;
+      }
+      &__overview{
+        color: wheat;
+        font-family: "Leelawadee UI",sans-serif;
+      }
+    }
+  }
+}

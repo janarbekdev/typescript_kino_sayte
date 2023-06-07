@@ -1,0 +1,84 @@
+#popular{
+  border-radius: 5px;
+  padding: 208px 0;
+  background: url("https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/4t0oBFrJyweYPt0hocW6RUa0b6H.jpg");
+     //opacity: .2;
+  //boxShadow:"inset 900px 0 0 400px rgba(0,0,0,0.7)"
+  .popular{
+    &--top{
+      display: flex;
+      align-items: center;
+        flex-wrap: wrap;
+        gap: 138px;
+      &__next{
+        background: red;
+          margin-left: 20px;
+
+        &--wait{
+          margin-left: 0;
+          margin-top: 3rem;
+          h1{
+            font-size: 20px;
+          }
+
+          animation: App-logo-spin infinite 0.02s linear;
+        }
+        @keyframes App-logo-spin {
+          from {
+            transform: rotate(0deg);
+          }
+          to {
+            transform: rotate(360deg);
+          }
+        }
+      }
+
+
+      &__block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 378px;
+        border-radius: 10px;
+        height: 600px;
+         z-index: 2;
+        background: black;
+
+        margin: 5px 5px;
+         transition: 1s;
+         &:hover{
+           transform: scale(1.009);
+         }
+        img{
+          margin-left: 3px;
+          border-radius: 10px;
+        }
+        h1{
+          color: wheat;
+          margin: 21px 0;
+          font-size: 25px;
+        }
+        button{
+          width: 90px;
+          height: 37px;
+          display: flex;
+          align-items: center;
+          color: white;
+           transition: 2s;
+          margin: -13px -28px -11px 98px;
+          &:hover{
+              transform: scale(1);
+             background: white;
+               color: royalblue;
+           }
+        }
+
+
+
+
+          }
+
+
+    }
+  }
+}

@@ -1,0 +1,50 @@
+#home {
+  padding: 128px 0;
+  width: 93rem;
+    background: red;
+    margin-left: 4rem;
+
+  .home{
+    &--hi{
+      h1{
+        font-size: 70px;
+        color: white;
+      }
+      h2{
+        font-size: 49px;
+        color: white;
+
+      }
+      &__dictricdute{
+         display: flex;
+         align-items: center;
+        input{
+          border-radius: 17px 0 0 17px;
+          width: 77rem;
+          height: 58px;
+
+        }
+        button{
+          border-radius: 0 17px 17px 0;
+          width: 88px;
+          height: 58px;
+          padding-left:20px;
+          font-size: 18px;
+          color: blue;
+          background: honeydew;
+            transition: 2s;
+           &:hover{
+              background: blue;
+               color: white;
+               transform: scale(1);
+           }
+
+        }
+      }
+
+
+    }
+
+
+  }
+}

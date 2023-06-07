@@ -1,0 +1,45 @@
+#job {
+  padding: 130px 0;
+
+  .job{
+  display: flex;
+     justify-content: space-around;
+      align-items: flex-start;
+     &--light{
+       img{
+         width: 100%;
+       }
+       &__lif{
+         &--pinch {
+           h1{
+             font-size: 30px;
+           }
+           h2{
+             font-size: 20px;
+           }
+         }
+
+       }
+     }
+    &--left{
+       margin-left: 10px;
+      width: 76%;
+      h1{
+        font-size: 43px;
+        margin: 0 0 30px 0;
+      }
+      p{
+        font-size: 20px;
+        width: 1099px;
+
+
+      }
+      h2{
+        width: 16%;
+          border-bottom: 5px solid blue;
+
+      }
+
+    }
+  }
+}

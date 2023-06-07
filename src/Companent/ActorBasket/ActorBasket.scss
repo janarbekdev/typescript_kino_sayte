@@ -1,0 +1,55 @@
+#actorBasket{
+  padding: 40px 0;
+   font-family: 'Poor Richard',sans-serif;
+  .actorBasket{
+     background: lime;
+     display: flex;
+     align-items: center;
+      border: 3px solid blue;
+     justify-content: space-between;
+     &--line{
+       &__joni{
+         img{
+           width: 50%;
+           height: 85px;
+           margin: 10px 10px;
+           border-radius: 10px;
+         }
+
+
+       }
+       img{
+         width: 50%;
+         height: 40%;
+         margin: 10px 10px;
+         border-radius: 10px;
+
+       }
+     }
+    &--line2{
+       h1{
+         font-palette: dark;
+          font-size: 30px;
+         font-family: 'ui-sans-serif';
+       }
+      button{
+        width: 100px;
+        height: 50px;
+        margin: 10px 10px;
+        color: white;
+         background: blue;
+          border-radius: 10px;
+           &:hover{
+              background: white;
+               color: blue;
+           }
+      }
+
+
+     }
+
+    &--line2{
+
+     }
+  }
+}

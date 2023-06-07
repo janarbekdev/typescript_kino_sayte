@@ -1,0 +1,27 @@
+@import "Companent/Header/Header";
+@import "Companent/Popular/Popular";
+@import "Companent/TopRated/TopRetad";
+@import "Companent/Home/Home";
+@import "Companent/Include/Include";
+@import "Companent/Detail/Detal";
+@import "Companent/Acotor/Actor";
+@import "Companent/Job/Job";
+@import "Companent/Actor2/Acotor2";
+@import "Companent/Search/Search";
+@import "Companent/Basket/Basket";
+@import "Companent/vido/Vidio";
+@import "Companent/footer/Footer";
+@import "Companent/Actor2/Acotor2";
+@import "Companent/ActorBasket/ActorBasket";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}

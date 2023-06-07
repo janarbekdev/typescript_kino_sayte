@@ -1,0 +1,52 @@
+#actor{
+  .actor{
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    //width: 70%;
+    &--nock{
+      width: 250px;
+        background: green;
+        box-shadow: inset;
+        backdrop-filter: blur(100px);
+      margin: 0 20px;
+      height: 300px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+      text-align: center;
+        transition: 1s;
+        &:hover{
+            transform: scale(1.028);
+        }
+      &::-webkit-scrollbar {
+        display: none;
+      }
+        h1{
+          color: white;
+           font-size: 20px;
+        }
+      &__block{
+        width: 99%;
+        height: 250px;
+         &--basket{
+            display: flex;
+             align-items: center;
+            button{
+              width: 60px;
+              background: white;
+              padding: 3px;
+              margin: 10px 10px;
+               transition: 1s;
+                &:hover{
+                   background: lime;
+                }
+            }
+         }
+      }
+    }
+  }
+}

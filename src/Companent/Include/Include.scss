@@ -1,0 +1,62 @@
+#include{
+  border-radius: 5px;
+  padding: 100px 0;
+    .include{
+    &--top{
+      display: flex;
+      &__block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+        border-radius: 10px;
+        height: 700px;
+        z-index: 2;
+        background: black;
+
+        margin: 5px 5px;
+        transition: 1s;
+        &:hover{
+          transform: scale(1.009);
+        }
+        img{
+          margin-left: 37px;
+          border-radius: 10px;
+        }
+        h1{
+          color: wheat;
+          margin: 21px 0;
+          font-size: 25px;
+        }
+        button{
+          width: 90px;
+          height: 37px;
+          display: flex;
+          align-items: center;
+          background: royalblue;
+          color: white;
+          transition: 2s;
+          margin: -13px -28px -11px 98px;
+          &:hover{
+            transform: scale(1);
+            background: white;
+            color: royalblue;
+          }
+        }
+        &--ru{
+          &__aunt{
+            display: flex;
+            width: 40%;
+          }
+        }
+
+
+
+
+
+      }
+
+
+    }
+  }
+}
